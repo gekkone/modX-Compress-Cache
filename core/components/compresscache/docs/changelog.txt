@@ -1,0 +1,2 @@
+v1.0.0 - Implemented a cache provider that compresses files via gzip
+         Реализован провайдер для кеша сжимающий файлы через gzip
