@@ -25,7 +25,6 @@ class CompressFileCache extends xPDOCache
         }
 
         $this->compressLvl = $compressLvl;
-        $this->xpdo->log(XPDO::LOG_LEVEL_ERROR, "Уровень сжатия - $this->compressLvl");
     }
 
     public function getCacheKey($key, $options = array())
