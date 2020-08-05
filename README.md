@@ -21,7 +21,7 @@ Acceptable values from 0 to 9 or -1-use the default compression level of the zli
 
 Для установки используйте менеджер пакетов
 1. Очистите кеш
-2. Укажите в качестве провайдера кеша класс "cache.CompressFileProvider"
+2. Укажите в качестве провайдера кеша класс "cache.CompressFileCache"
 Для этого используйте параметры настроек пространства core секции Кеширование
 a) Для сжатия всех файлов кеша используйте параметр cache_handler
 b) Для сжатия файлов кеша конкретного типа создайте параметр вида cache_<тип>_handler, например, cache_resource_handler для сжатия кеша ресурсов
